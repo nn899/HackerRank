@@ -11,7 +11,6 @@ solution to: https://www.hackerrank.com/challenges/gem-stones
 */
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
     int num;
     cin>>num;
     string str;

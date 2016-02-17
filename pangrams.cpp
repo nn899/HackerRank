@@ -11,13 +11,12 @@ My solution to: https://www.hackerrank.com/challenges/pangrams
 */
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     string inputString;
     getline( cin, inputString);
     int arr[26] = {};
     bool flag = 0;
     int alphabetTab = 0;
-    
+
     for(int i = 0; i < inputString.length(); i++){
         int num = (tolower(inputString[i]) - 'a');
         if(num < 0 || num > 25){

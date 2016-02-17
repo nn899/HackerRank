@@ -11,7 +11,7 @@ using namespace std;
 My solution to: https://www.hackerrank.com/challenges/game-of-thrones
 */
 int main() {
-   
+
     string s;
     cin>>s;
     int sLen = s.length();
@@ -25,14 +25,14 @@ int main() {
         if(histogram[j]%2 != 0) {
               flag++;
         }
-    }  
+    }
     if (sLen%2 == 0 && flag == 0) {
         cout<<"YES";
     }
     else if(sLen%2 != 0 && flag == 1) {
         cout<<"YES";
     }
-    else 
+    else
         cout<<"NO";
     return 0;
 }
