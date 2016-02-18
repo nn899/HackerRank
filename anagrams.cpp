@@ -9,7 +9,7 @@ using namespace std;
 /*
 solution to -> https://www.hackerrank.com/challenges/anagram/submissions/code/17547603
 */
-int main() { 
+int main() {
     int num;
     string str;
     cin>>num;

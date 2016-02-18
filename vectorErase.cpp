@@ -26,7 +26,7 @@ int main() {
     for( int c : v) {
         cout<<c<<" ";
     }
-    
+
     cout<<endl;
     return 0;
 }

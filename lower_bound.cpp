@@ -11,7 +11,7 @@ solution to ttps://www.hackerrank.com/challenges/cpp-lower-bound
 */
 
 int main() {
-    int elements;  
+    int elements;
     int num;
     int queries;
     vector<int> v;
@@ -32,6 +32,6 @@ int main() {
 
         cout << (*pos == q ? "Yes" : "No") << " "
              << pos - v.begin() + 1 << endl;
-    }  
+    }
     return 0;
 }

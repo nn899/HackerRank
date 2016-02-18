@@ -1,4 +1,4 @@
-/* 
+/*
 Solution to: https://www.hackerrank.com/challenges/cpp-sets
 */
 
@@ -23,17 +23,17 @@ int main() {
             case 1:
                 intSet.insert(x);
                 break;
-            case 2:                
+            case 2:
                 it = intSet.find(x);
                 if (it != intSet.end()) {
                     intSet.erase(x);
-                }                             
+                }
                 break;
             case 3:
                 it = intSet.find(x);
                 cout << (it == intSet.end() ? "No" : "Yes") << endl;
                 break;
-        } 
+        }
         numQ--;
     }
     return 0;
