@@ -1,5 +1,5 @@
 #include <iostream>
-#include <deque> 
+#include <deque>
 #include <algorithm>
 
 using namespace std;
@@ -15,14 +15,14 @@ void printKMax(int arr[], int n, int k){
        d.push_back(arr[x]);
        x++;
    }
-   for (int i = x; i <= n; i++) {       
+   for (int i = x; i <= n; i++) {
        cout << *max_element(d.begin(),d.end()) << " ";
        d.pop_front();
        d.push_back(arr[i]);
    }
 }
 int main(){
-  
+
    int t;
    cin >> t;
    while(t>0) {
